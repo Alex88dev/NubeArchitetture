@@ -1,0 +1,50 @@
+@tailwind base
+@tailwind components
+@tailwind utilities
+
+
+// Breakpoint variables
+
+$layout-breakpoint-small: 360px //Small  -->  sm
+$layout-breakpoint-medium: 768px //Medium  -->  md
+$layout-breakpoint-small-desk: 992px //Large  -->  lg
+$layout-breakpoint-desktop: 1200px //Extra large  -->  xl
+$layout-breakpoint-desktop-large: 1400px //Extra extra large  -->  xxl
+
+// @media (min-width: $layout-breakpoint-small)
+// @media (min-width: $layout-breakpoint-medium)
+// @media (min-width: $layout-breakpoint-small-desk)
+// @media (min-width: $layout-breakpoint-desktop)
+// @media (min-width: $layout-breakpoint-desktop-large)
+
+// Font Face
+@font-face 
+  font-family: Helvetica Regular
+  src: url(../../public/font/Helvetica.woff2) format('woff2')
+  font-weight: normal
+  font-style: normal
+
+@font-face 
+  font-family: Helvetica Bold
+  src: url(../../public/font/Helvetica-Bold.woff2) format('woff2')
+  font-weight: bold
+  font-style: normal
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+    font-family: Helvetica Bold !important
+    margin: 0 !important
+
+p,
+span,
+a,
+button,
+input,
+select,
+label,
+div
+    font-family: Helvetica Regular !important
